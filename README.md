@@ -13,3 +13,5 @@ project_sequence01_v1_grd001.00003.dpx
 etc..
 
 ...would be moved into a newly created folder named "project_sequence01_v1_grd001".
+
+Note: If needed, make folderify.sh executeable by running "chmod +x folderify.sh" in Terminal.
