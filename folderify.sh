@@ -8,9 +8,15 @@ while getopts ":e:d:" option; do
     esac
 done
 
+# Request for file extension if one is not specified
+if [ -z "${e}" ];
+    then echo "Please specify a file extension: ./folderify -e [dpx,exr,tif,etc]";
+    else
+
 # Filename parsing, directory creation, and move operations
 for file in *."${e}"; do
            dir=${file%%.*}
            mkdir -p -- "$dir/${d}"
            mv "$file" "$dir/${d}"
 done
+fi
