@@ -28,6 +28,7 @@ Specify a sub-directory to be included inside the named image sequence folder [e
 Example: *./folderify.sh -e dpx -d 1920x1080*<br/>
 */project_sequence01_v1_grd001/1920x1080/project_sequence01_v1_grd001.00001.dpx*<br/><br/>
 
+**Additional**
 
-Note: If needed, make folderify.sh executeable by running "chmod +x" on the script itself in Terminal:<br/>
+If needed, make *folderify.sh* executeable by running *chmod +x* on the script itself in Terminal:<br/>
 *chmod +x folderify.sh* 
