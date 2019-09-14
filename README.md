@@ -20,7 +20,7 @@ are moved into a newly created folder named...
 
 Specify the target file extension [dpx, exr, tif, etc]<br/>
 *-e [file extension]*<br/>
-Example: *./folderify.sh -e dpx*
+Example: *./folderify.sh -e dpx*<br/>
 */project_sequence01_v1_grd001/project_sequence01_v1_grd001.00001.dpx*<br/><br/>
 
 Specify a sub-directory to be included inside the named image sequence folder [e.g, a resolution folder]<br/>
